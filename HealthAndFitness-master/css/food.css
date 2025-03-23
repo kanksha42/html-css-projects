@@ -1,0 +1,187 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: purple;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+nav a {
+    float: right; /* Align items to the right */
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 0;
+}
+nav a:hover {
+    background-color: #555;
+}
+.image-section {
+    position: relative;
+    background-image: url(pics/pexels.jpg.jpg); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #232121; /* Text color for better contrast */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.image-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.image-section h2 {
+    font-size: 36px;
+    z-index: 1; /* Ensure the text is on top of the overlay */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #EAF273;
+}
+.weightg h1{
+    text-align: center;
+    background-color:  #7BDFF2;/* #832232 */
+    color: #370031;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+
+}
+
+.weightg p{
+    font-size: large;
+    margin: 50px;
+}
+
+.weightl h1{
+    text-align:center;
+    background-color:#B2F7EF;
+    color: #370031;
+    padding:30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+
+
+.bulkdiet h1{
+    text-align: center;
+    background-color:  #F7D6E0;/* #832232 */
+    color: #370031;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+
+}
+.vegdiet h1{
+    text-align: center;
+    background-color: #F2B5D4;
+    color:#370031;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+.carbdiet h1{
+    text-align:center;
+    background-color: #0B0033;
+    color:white;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+
+}
+
+.fatdiet h1{
+    text-align:center;
+    background-color: #832232;
+    color: black;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+.glutenfreediet h1{
+    text-align: center;
+    background-color:  #7E1F86;/* #832232 */
+    color: #370031;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+
+}
+
+.dashdiet h1{
+    text-align: center;
+    background-color:  #9D79BC;/* #832232 */
+    color: #370031;
+    padding: 30px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+
+}
+
+.button-menu {
+    white-space: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    display: flex; /* Make buttons appear in a row */
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: pink;
+}
+
+
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
